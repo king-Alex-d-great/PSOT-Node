@@ -73,7 +73,7 @@ const addTransaction = (timeStamp, transactionType, amount, token) => {
   };
 
   dataStore.push(newTransaction);
-  return "Added Successfully";
+  return "Added Successfully" ;
 };
 
 // Get A transaction by Timestamp ==> 2020.10.24 => 1571967208
